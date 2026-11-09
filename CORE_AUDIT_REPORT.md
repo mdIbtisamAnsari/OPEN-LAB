@@ -57,3 +57,4 @@ To ensure compatibility beyond NumPy, OPEN-LAB verifies numerical routines again
    * QR Decomposition: $\| A - Q R \|_\infty < 10^{-14}$ and $\| Q^T Q - I \|_\infty < 10^{-14}$.
    * SVD: $\| A - U \Sigma V^T \|_\infty < 10^{-14}$, $\| U^T U - I \|_\infty < 10^{-14}$, $\| V^T V - I \|_\infty < 10^{-14}$, with $\sigma_1 \ge \sigma_2 \ge \dots \ge 0$.
    * Linear Solve: $\| A (A \backslash b) - b \|_\infty < 10^{-12} \times \text{cond}(A) \| b \|_\infty$.
+

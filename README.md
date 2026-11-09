@@ -19,22 +19,15 @@ OPENLAB/
 ├── Cargo.toml                     # Workspace root manifest
 ├── ARCHITECTURE.md                # System architectural specification
 ├── CLEAN_ROOM_SPEC.md             # Legal compliance & clean-room boundaries
+├── CORE_AUDIT_REPORT.md           # Audit & differential testing report
+├── MATH_SUBSYSTEM_REPORT.md       # Math subsystem & benchmark report
 ├── RE_TOOLING_REPORT.md           # Toolchain & REA MCP inspection report
 ├── ROADMAP.md                     # Milestone tracking & progress ledger
 ├── SUBSYSTEM_INVENTORY.md         # Comprehensive MATLAB subsystem inventory
 └── crates/
-    └── openlab-core/              # Subsystem 1: Core multi-dimensional array engine
-        ├── Cargo.toml
-        ├── src/
-        │   ├── lib.rs             # Crate exports
-        │   ├── array.rs           # MxArray matrix engine & operations
-        │   ├── complex.rs         # Complex64 numeric implementation
-        │   ├── data.rs            # MxData dynamic type storage
-        │   ├── error.rs           # CoreError domain error types
-        │   ├── format.rs          # MATLAB command window matrix formatter
-        │   └── shape.rs           # Multi-dimensional shape & strides
-        └── tests/
-            └── matrix_tests.rs    # Exhaustive invariant unit test suite
+    ├── openlab-core/              # Subsystem 1: Core multi-dimensional array engine
+    ├── openlab-math/              # Subsystem 2: Linear algebra, decompositions & solvers
+    └── openlab-syntax/            # Subsystem 3: Pratt expression parser, AST & lexer
 ```
 
 ---

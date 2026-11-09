@@ -3,6 +3,9 @@ resolver = "2"
 members = [
     "crates/openlab-core",
     "crates/openlab-math",
+    "crates/openlab-syntax",
+    "crates/openlab-stdlib",
+    "crates/openlab-vm",
 ]
 
 [workspace.package]

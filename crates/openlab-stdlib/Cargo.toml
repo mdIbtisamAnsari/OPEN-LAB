@@ -1,0 +1,13 @@
+[package]
+name = "openlab-stdlib"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+openlab-core = { path = "../openlab-core" }
+openlab-math = { path = "../openlab-math" }
+
+[dev-dependencies]
+

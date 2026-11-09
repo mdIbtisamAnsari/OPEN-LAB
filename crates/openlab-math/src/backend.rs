@@ -84,3 +84,4 @@ static DEFAULT_BACKEND: CpuBackend = CpuBackend;
 pub fn default_backend() -> &'static dyn MathBackend {
     &DEFAULT_BACKEND
 }
+

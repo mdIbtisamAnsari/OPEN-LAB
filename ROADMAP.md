@@ -12,10 +12,10 @@
 | Milestone | Subsystem / Objective | Status | Tests | Artifacts |
 | :--- | :--- | :---: | :---: | :---: |
 | **M0** | Tooling Verification, REA Inspection, & Clean-Room Architecture Setup | **COMPLETE** | N/A | `RE_TOOLING_REPORT.md`, `ARCHITECTURE.md`, `SUBSYSTEM_INVENTORY.md` |
-| **M1** | Core Multi-dimensional Array Engine (`openlab-core`) | **IN PROGRESS** | Unit tests | `crates/openlab-core` |
-| **M2** | Mathematical & Linear Algebra Engine (`openlab-math`) | Pending | Invariant tests | `crates/openlab-math` |
-| **M3** | Lexer, Tokenizer, AST & Pratt Parser (`openlab-syntax`) | Pending | Parser tests | `crates/openlab-syntax` |
-| **M4** | Standard Built-in Function Library (`openlab-stdlib`) | Pending | Parity tests | `crates/openlab-stdlib` |
+| **M1** | Core Multi-dimensional Array Engine (`openlab-core`) | **COMPLETE** | 11/11 Passed | `crates/openlab-core`, `CORE_AUDIT_REPORT.md` |
+| **M2** | Mathematical & Linear Algebra Engine (`openlab-math`) | **COMPLETE** | 22/22 Passed | `crates/openlab-math`, `MATH_SUBSYSTEM_REPORT.md` |
+| **M3** | Lexer, Tokenizer, AST & Pratt Parser (`openlab-syntax`) | **COMPLETE** | 12/12 Passed | `crates/openlab-syntax` |
+| **M4** | Standard Built-in Function Library (`openlab-stdlib`) | **IN PROGRESS** | Parity tests | `crates/openlab-stdlib` |
 | **M5** | Execution Engine & Virtual Machine (`openlab-vm`) | Pending | Script tests | `crates/openlab-vm` |
 | **M6** | Level 5 MAT-File Serialization & Deserialization (`openlab-matio`) | Pending | Binary format tests | `crates/openlab-matio` |
 | **M7** | Interactive REPL, Line Editor & Inspector (`openlab-repl`) | Pending | REPL session tests | `crates/openlab-repl` |

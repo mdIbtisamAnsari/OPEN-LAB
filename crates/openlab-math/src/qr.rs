@@ -157,3 +157,4 @@ pub fn decompose(a: &MxArray, economy: bool) -> Result<QrDecomposition, CoreErro
         Ok(QrDecomposition { q, r })
     }
 }
+

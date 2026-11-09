@@ -195,3 +195,4 @@ pub fn decompose(a: &MxArray) -> Result<LuDecomposition, CoreError> {
         num_swaps,
     })
 }
+

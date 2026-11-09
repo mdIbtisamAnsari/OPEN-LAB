@@ -118,3 +118,4 @@ pub fn decompose(a: &MxArray) -> Result<CholeskyDecomposition, CoreError> {
 
     Ok(CholeskyDecomposition { l, r })
 }
+
