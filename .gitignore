@@ -1,0 +1,107 @@
+
+# ==============================
+# Rust / Cargo
+# ==============================
+/target/
+**/target/
+Cargo.lock
+
+# Keep Cargo.lock for applications if you want reproducible builds.
+# Uncomment the next line if OPEN-LAB is distributed as an application:
+# !Cargo.lock
+
+# Rust compiler artifacts
+*.rlib
+*.rmeta
+*.d
+*.so
+*.dll
+*.dylib
+*.exe
+
+# ==============================
+# IDE / Editors
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==============================
+# Antigravity / AI agents
+# ==============================
+.antigravity/
+.agent-cache/
+.agent-tmp/
+.ai-cache/
+*.log
+
+# Preserve project instructions and agent configuration.
+!.agent/
+!.agents/
+!.antigravity/
+
+# ==============================
+# Build / Distribution
+# ==============================
+/build/
+/dist/
+/out/
+/release/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+/coverage/
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.lcov
+
+# ==============================
+# GPU / Compute caches
+# ==============================
+.cache/
+.cuda_cache/
+*.cubin
+*.ptx
+*.spv
+
+# ==============================
+# Temporary files
+# ==============================
+/tmp/
+/temp/
+*.tmp
+*.bak
+*.old
+*.orig
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# ==============================
+# Python research tools
+# ==============================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ==============================
+# OS files
+# ==============================
+Thumbs.db
